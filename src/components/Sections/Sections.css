@@ -2,5 +2,6 @@
     transition: 0.5s;
 }
 .section:hover {
+    cursor: pointer;
     transform: translateY(-25px);
 }

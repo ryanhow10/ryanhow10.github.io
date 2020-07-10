@@ -1,0 +1,9 @@
+.item {
+    color: #ccc;
+    transition: 0.5s;
+}
+
+.item:hover {
+    cursor: pointer;
+    color: black
+}
