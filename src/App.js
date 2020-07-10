@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="ma5">
       <Header></Header>
       <Sections></Sections>
       <Footer></Footer>
