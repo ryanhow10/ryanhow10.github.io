@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+}
+
+.icon {
+    color: #ccc;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    color: black;
+}
