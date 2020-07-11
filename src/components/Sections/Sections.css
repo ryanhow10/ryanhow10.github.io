@@ -5,3 +5,7 @@
     cursor: pointer;
     transform: translateY(-25px);
 }
+
+a {
+    color: black;
+}
