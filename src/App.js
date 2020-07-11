@@ -1,16 +1,12 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import Sections from './components/Sections/Sections';
-import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
 import 'tachyons';
 import './App.css';
 
 function App() {
   return (
     <div className="ma5">
-      <Header></Header>
-      <Sections></Sections>
-      <Footer></Footer>
+      <Home></Home>
     </div>
   );
 }
