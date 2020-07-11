@@ -11,15 +11,15 @@ const about = {
             timeInterval: "summer 2020",
             location: "london, england",
             technologies: ["angular, spring boot, mongodb"],
-            blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            blurb: "coming soon..."
         },
         {
             position: "software engineering intern",
             organization: "emailgistics",
             timeInterval: "fall 2019",
-            location: "mississauag, ontario",
+            location: "mississauga, ontario",
             technologies: ["vue, go, mongodb"],
-            blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            blurb: "emailgistics allows for customers working in a shared mailbox to achieve maximum productivity and efficiency. as an intern, i was tasked with developing a microsoft outlook add-in allowing users to easily perform various tasks regarding managing mail. i was also responsible for implementing new backend logic for new features and incorporating csrf prevention middleware for all necessary api routes."
         },
         {
             position: "software engineering intern",
@@ -27,7 +27,7 @@ const about = {
             timeInterval: "winter 2019",
             location: "toronto, ontario",
             technologies: ["node, php, sql, postgres"],
-            blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            blurb: "boss insights provides real time insights for startups, accelerators and investors. as an intern, i improved the time to add new integrations by 200% by redesigning a universal input configuration file used in a data aggregation system. i also refactored the entire codebase to enable integrations with xml response-based apis and created unique authorization header handling with oauth 1.0 & oath 2.0."
         },
         {
             position: "sql developer",
@@ -35,7 +35,7 @@ const about = {
             timeInterval: "summer 2017",
             location: "mississauga, ontario",
             technologies: ["sql"],
-            blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            blurb: "prgx is a global company providing data analytics services in the procure-to-pay process. as an intern, i was tasked with cleansing 750k+ rows of raw data by developing complex sql scripts. i was also responseible for creating database views and indexes according to logical design models."
         },
     ],
     projects: [
@@ -61,7 +61,7 @@ const about = {
             title: "keeping up with covid19",
             technologies: "angular, google maps api",
             timeInterval: "summer 2020",
-            blurb: "developed a web application to display worldwide and country specified covid19 statistics with an interactive map."
+            blurb: "developed a web application with an interactive map to display worldwide and country specified covid19 statistics."
         },
         {
             title: "productivity please",

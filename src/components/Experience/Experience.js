@@ -20,7 +20,7 @@ class Experience extends Component {
         return (
             <div>
                 <h1 className="mb0">experience</h1>
-                <h3 className="mt0">here's a list of my professional experiences</h3>
+                <h3 className="mt0">here's a list of my professional experience</h3>
                 <div className="flex">
                     <div className="w-100">
                         { experienceItems }
