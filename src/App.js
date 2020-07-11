@@ -10,37 +10,43 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import 'tachyons';
 import './App.css';
 
 function App() {
   return (
-    <div className="ma5">
-      <Navigation></Navigation>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-        </Switch>
-        <Switch>
-          <Route path="/about">
-            <About></About>
-          </Route>
-        </Switch>
-        <Switch>
-          <Route path="/experience">
-            <Experience></Experience>
-          </Route>
-        </Switch>
-        <Switch>
-          <Route path="/projects">
-            <Projects></Projects>
-          </Route>
-        </Switch>
-      </Router>
+    <ReactCSSTransitionGroup
+      transitionName="example" 
+      transitionAppear={true}
+      transitionAppearTimeout={700}>
+        <div className="ma5">
+        <Navigation></Navigation>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+          </Switch>
+          <Switch>
+            <Route path="/about">
+              <About></About>
+            </Route>
+          </Switch>
+          <Switch>
+            <Route path="/experience">
+              <Experience></Experience>
+            </Route>
+          </Switch>
+          <Switch>
+            <Route path="/projects">
+              <Projects></Projects>
+            </Route>
+          </Switch>
+        </Router>
       <Footer></Footer>
-    </div>
+      </div>
+    </ReactCSSTransitionGroup>
   );
 }
 
