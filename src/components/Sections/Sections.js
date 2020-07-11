@@ -8,19 +8,19 @@ class Sections extends Component {
                 <a href="/about">
                     <div className="section">
                         <img src={require(`./../../assets/images/about.svg`)} className="ma0" height="400px"></img>
-                        <p className="mt0 f4">about</p>
+                        <p className="mt0 f4" id="text">about</p>
                     </div>
                 </a>
                 <a href="/experience">
                     <div className="section">
                         <img src={require(`./../../assets/images/experience.svg`)} className="ma0" height="400px"></img>
-                        <p className="mt0 f4">experience</p>
+                        <p className="mt0 f4" id="text">experience</p>
                     </div>
                 </a>
                 <a href="/projects">
                     <div className="section">
                         <img src={require(`./../../assets/images/projects.svg`)} className="ma0" height="400px"></img>
-                        <p className="mt0 f4">projects</p>
+                        <p className="mt0 f4" id="text">projects</p>
                     </div>
                 </a>
             </div>

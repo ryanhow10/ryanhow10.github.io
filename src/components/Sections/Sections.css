@@ -9,3 +9,9 @@
 a {
     color: black;
 }
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #A7C2FF;
+} 
+

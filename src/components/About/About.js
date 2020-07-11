@@ -12,7 +12,7 @@ class About extends Component {
                     <div className="w-70">
                         <p className="f5">{ about.description }</p>
                         <div>
-                            <p className="f5">here is a brief rundown about me</p>
+                            <p className="f5">here's a brief rundown about me</p>
                             <div className="mb4">
                                 <mark className="mr3"><p className="f5 di">education: </p></mark>{ about.education }
                             </div>
