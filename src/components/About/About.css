@@ -2,3 +2,42 @@ mark {
     background-color: #A7C2FF;
     color: black;
 }
+
+.about {
+    margin: 2rem;
+} 
+
+.aboutImage {
+    display: none;
+}
+
+.top {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .about {
+        margin: 3rem;
+    }
+    .aboutContent {
+        display: flex;
+    }
+    .aboutImage {
+        display: inline-block;
+        min-width: 20%;
+    }
+    .top {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about {
+        margin: 4rem;
+        margin-bottom: 0;
+    }
+    .aboutImage {
+        min-width: 30%;
+        height: auto;
+    }
+}

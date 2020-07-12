@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ExperienceItem from '../ExperienceItem/ExperienceItem';
 import about from './../../assets/about';
+import './Experience.css';
 
 class Experience extends Component {
     render() {
@@ -18,7 +19,7 @@ class Experience extends Component {
             )
         });
         return (
-            <div>
+            <div className="experience">
                 <h1 className="mb0">experience</h1>
                 <h3 className="mt0">here's a list of my professional experience</h3>
                 <div className="flex">
