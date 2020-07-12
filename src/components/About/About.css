@@ -11,7 +11,7 @@ mark {
     display: none;
 }
 
-.top {
+.topAbout {
     text-align: center;
 }
 
@@ -24,20 +24,16 @@ mark {
     }
     .aboutImage {
         display: inline-block;
-        min-width: 20%;
+        min-width: 30%;
     }
-    .top {
+    .topAbout {
         text-align: left;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
     .about {
         margin: 4rem;
         margin-bottom: 0;
-    }
-    .aboutImage {
-        min-width: 30%;
-        height: auto;
     }
 }

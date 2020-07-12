@@ -6,8 +6,8 @@ class About extends Component {
     render() {
         return (
             <div className="about">
-                <h1 className="mb0 top">ryan how</h1>
-                <h3 className="mt0 top">let me tell you a bit about myself!</h3>
+                <h1 className="mb0 topAbout">ryan how</h1>
+                <h3 className="mt0 topAbout">let me tell you a bit about myself!</h3>
                 <div className="aboutContent">
                     <div>
                         <p className="f5">{ about.description }</p>

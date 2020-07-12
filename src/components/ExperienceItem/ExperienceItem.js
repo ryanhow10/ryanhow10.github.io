@@ -5,7 +5,7 @@ class ExperienceItem extends Component {
     render() {
         const { position, organization, location, timeInterval, technologies, blurb} = this.props;
         return (
-            <div className="ma5 mt0 mb2 pb2 experience">
+            <div className="mt0 mb2 pb2 experienceItem">
                 <div className="flex">
                     <div className="w-90">
                         <h2 className="mb1">{ organization }</h2>
