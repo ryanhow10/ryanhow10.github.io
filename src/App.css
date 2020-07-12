@@ -6,3 +6,8 @@
     opacity: 1;
     transition: opacity .7s ease-in;
 }
+
+.wrapper {
+    width: 100%;
+}
+

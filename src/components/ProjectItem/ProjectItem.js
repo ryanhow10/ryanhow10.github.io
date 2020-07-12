@@ -10,7 +10,7 @@ class ProjectItem extends Component {
                     <div className="w-90">
                         <h2 className="mb1">{ title }</h2>
                         <div className="mt1 mb3">
-                            <mark className="mr2"><p className="di">Tech used:</p></mark>{ technologies }
+                            <mark className="mr2"><p className="di">tech used:</p></mark>{ technologies }
                         </div>
                         { blurb }
                     </div>

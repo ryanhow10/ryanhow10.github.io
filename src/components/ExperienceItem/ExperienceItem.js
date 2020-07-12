@@ -11,7 +11,7 @@ class ExperienceItem extends Component {
                         <h2 className="mb1">{ organization }</h2>
                         <p className="mt0 mb0">{ position }</p>
                         <div className="mt1 mb3">
-                            <mark className="mr2"><p className="di">Tech used:</p></mark>{ technologies }
+                            <mark className="mr2"><p className="di">tech used:</p></mark>{ technologies }
                         </div>
                         { blurb }
                     </div>

@@ -20,7 +20,7 @@ function App() {
       transitionName="example" 
       transitionAppear={true}
       transitionAppearTimeout={700}>
-        <div className="ma5">
+        <div className="wrapper">
         <Navigation></Navigation>
         <Router>
           <Switch>

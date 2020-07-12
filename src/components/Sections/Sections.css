@@ -1,7 +1,9 @@
 .section {
     transition: 0.5s;
     color: black;
+    width: 100%;
 }
+
 .section:hover {
     cursor: pointer;
     transform: translateY(-25px);
@@ -11,3 +13,18 @@ a {
     color: black;
 }
 
+.sections {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .sections {
+        display: flex;
+    }
+}

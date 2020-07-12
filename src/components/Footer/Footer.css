@@ -10,3 +10,20 @@ a {
 .icon:hover {
     color: black;
 }
+
+.footer {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        margin-bottom: 3rem;
+    } 
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer {
+        margin-bottom: 4rem;
+    } 
+}

@@ -8,3 +8,23 @@
     cursor: pointer;
     color: black;
 }
+
+.nav {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        text-align: right;
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .nav {
+        margin-right: 4rem;
+        margin-top: 4rem;
+    }
+}
