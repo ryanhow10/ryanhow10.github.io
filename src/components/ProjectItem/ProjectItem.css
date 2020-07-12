@@ -3,6 +3,19 @@ mark {
     color: black;
 }
 
-.projects {
+.projectItem {
     border-bottom: 1px solid #A7C2FF;
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .projectItem {
+        margin: 2rem;
+    } 
+}
+
+@media only screen and (min-width: 1000px) {
+    .projectItem {
+        margin: 3rem;
+    } 
 }

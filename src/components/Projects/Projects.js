@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProjectItem from './../ProjectItem/ProjectItem'
 import about from './../../assets/about';
+import './Projects.css';
 
 class Projects extends Component {
     render() {
@@ -16,9 +17,9 @@ class Projects extends Component {
             )
         });
         return (
-            <div>
-                <h1 className="mb0">projects</h1>
-                <h3 className="mt0">here's a list of some things i made</h3>
+            <div className="projects">
+                <h1 className="mb0 topProjects">projects</h1>
+                <h3 className="mt0 topProjects">here's a list of some things i made</h3>
                 <div className="flex">
                     <div className="w-100">
                         { projectItems }

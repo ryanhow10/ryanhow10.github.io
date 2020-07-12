@@ -5,7 +5,7 @@ class ProjectItem extends Component {
     render() {
         const { title, technologies, timeInterval, blurb } = this.props;
         return (
-            <div className="ma5 mt0 mb2 pb2 projects">
+            <div className="mt0 mb2 pb2 projectItem">
                 <div className="flex">
                     <div className="w-90">
                         <h2 className="mb1">{ title }</h2>
