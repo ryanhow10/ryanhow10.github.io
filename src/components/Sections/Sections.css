@@ -1,4 +1,5 @@
 .section {
+    text-align: center;
     transition: 0.5s;
     color: black;
     width: 100%;
@@ -11,10 +12,6 @@
 
 a {
     color: black;
-}
-
-.sections {
-    text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
