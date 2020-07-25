@@ -10,6 +10,7 @@ class Projects extends Component {
                 <ProjectItem
                     key={ index }
                     title={ item.title }
+                    repoLink={ item.repoLink }
                     technologies={ item.technologies }
                     timeInterval={ item.timeInterval }
                     blurb={ item.blurb }>

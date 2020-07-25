@@ -4,7 +4,7 @@ import './Sections.css';
 class Sections extends Component {
     render() {
         return (
-            <div className="flex justify-around">
+            <div className="sections">
                 <a href="/about">
                     <div className="section">
                         <img src={require(`./../../assets/images/about.svg`)} className="ma0" height="400px"></img>
