@@ -11,7 +11,7 @@ const about = {
             timeInterval: "summer 2020",
             location: "london, england",
             technologies: ["angular, spring boot, mongodb"],
-            blurb: "coming soon..."
+            blurb: "minimax labs creates optimization decision support systems that create massive value and provide competitive advantage for global enterprises. as an intern, i was responsible for redesigning our entire front-end application into one single configurable application. i also developed several elegant web interfaces allowing users to visualize and manipulate data."
         },
         {
             position: "software engineering intern",
