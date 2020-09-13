@@ -5,17 +5,20 @@ mark {
 
 .experienceItem {
     border-bottom: 1px solid #A7C2FF;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
     .experienceItem {
-        margin: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     } 
 }
 
 @media only screen and (min-width: 1000px) {
     .experienceItem {
-        margin: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     } 
 }
