@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import about from "./../../assets/about";
+import dude from "./../../assets/images/aboutPage.svg";
 import "./About.css";
 
 class About extends Component {
@@ -34,11 +35,7 @@ class About extends Component {
             </div>
             <p className="f5">{about.closer}</p>
           </div>
-          <img
-            alt="dude"
-            src={require(`./../../assets/images/aboutPage.svg`)}
-            className="aboutImage"
-          ></img>
+          <img alt="dude" src={dude} className="aboutImage"></img>
         </div>
       </div>
     );
