@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import about from "./../../assets/images/about.svg";
+import experience from "./../../assets/images/experience.svg";
+import projects from "./../../assets/images/projects.svg";
 import "./Sections.css";
 
 class Sections extends Component {
@@ -7,12 +10,7 @@ class Sections extends Component {
       <div className="sections">
         <a href="/about">
           <div className="section">
-            <img
-              alt="about"
-              src={require(`./../../assets/images/about.svg`)}
-              className="ma0"
-              height="400px"
-            ></img>
+            <img alt="about" src={about} className="ma0" height="400px"></img>
             <p className="mt0 f4">about</p>
           </div>
         </a>
@@ -20,7 +18,7 @@ class Sections extends Component {
           <div className="section">
             <img
               alt="experience"
-              src={require(`./../../assets/images/experience.svg`)}
+              src={experience}
               className="ma0"
               height="400px"
             ></img>
@@ -31,7 +29,7 @@ class Sections extends Component {
           <div className="section">
             <img
               alt="projects"
-              src={require(`./../../assets/images/projects.svg`)}
+              src={projects}
               className="ma0"
               height="400px"
             ></img>
